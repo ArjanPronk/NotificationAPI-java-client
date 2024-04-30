@@ -57,7 +57,5 @@ jobs:
         run: | 
           openapi-generator-cli generate -i openapi.yml -g java -c java-generator-config.yml -o notificationapi-java-client --skip-validate-spec --artifact-version 1.0.0-SNAPSHOT
 
-      # push updated code to the repository
-      - uses: EndBug/add-and-commit@v9
-        with:
-          default_author: github_actions
+      - name: commit changed files back to repo
+        uses: stefanzweifel/git-auto-commit-action@v5
