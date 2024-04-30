@@ -1,0 +1,22 @@
+# Config options for the java generator
+groupId: pronk.dev
+artifactId: notificationapi-java-client
+artifactDescription: Client for the NotificationAPI API
+#artifactVersion: 1.0.0-SNAPSHOT
+dateLibrary: java8
+invokerPackage: pronk.dev.notificationapi.client.utils
+modelPackage: pronk.dev.notificationapi.client.model
+apiPackage: pronk.dev.notificationapi.client
+java8: true
+library: resteasy
+hideGenerationTimestamp: true
+useRuntimeException: true
+useJakartaEe: false
+developerEmail: arjan.pronk@gmail.com
+developerName: Arjan Pronk
+developerOrganization: None
+developerOrganizationUrl: https://pronk.dev
+scmConnection: scm:git:git@github.com:ArjanPronk/NotificationAPI-java-client.git
+scmDeveloperConnection: scm:git:git@github.com:ArjanPronk/NotificationAPI-java-client.git
+scmUrl: https://github.com/ArjanPronk/NotificationAPI-java-client
+

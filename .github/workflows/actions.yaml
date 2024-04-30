@@ -1,0 +1,64 @@
+name: generate-commit-push
+
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+#  push:
+#    branches: [ "main" ]
+#  pull_request:
+#    branches: [ "main" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  generate-java-client:
+    runs-on: ubuntu-latest
+    name: generate-java-client
+    steps:
+
+      # Checkout your code
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: setup java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: setup npm
+        uses: actions/setup-node@v4
+        with:
+          # Version Spec of the version to use in SemVer notation.
+          # It also emits such aliases as lts, latest, nightly and canary builds
+          # Examples: 12.x, 10.15.1, >=10.15.0, lts/Hydrogen, 16-nightly, latest, node
+          node-version: 18
+
+      # Install postman-to-openapi
+      - name: Install postman-to-openapi and openapi generator
+        run: |
+          npm i postman-to-openapi -g
+          npm install @openapitools/openapi-generator-cli -g
+
+      # Download postman collection
+      - name: Download postman collection
+        run: |
+          curl -o collection.json ${{ secrets.POST_MAN_COLLECTION_URL_WITH_ACCESS_KEY }}
+
+      # Transform into openapi specification
+      - name: Transform into openapi specification
+        run: |
+          p2o collection.json -f openapi.yml -o options.json
+
+      # Generate Java Client
+      - name: Generate Java Client
+        run: | 
+          openapi-generator-cli generate -i openapi.yml -g java -c java-generator-config.yml -o notificationapi-java-client --skip-validate-spec --artifact-version 1.0.0-SNAPSHOT
+
+      # push updated code to the repository
+      - uses: EndBug/add-and-commit@v9
+        with:
+          default_author: github_actions
+          add: '/notificationapi-java-client'
