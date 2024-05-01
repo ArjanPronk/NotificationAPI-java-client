@@ -19,6 +19,7 @@ jobs:
       - name: Publish package
         run: |
           cd notificationapi-java-client
+          mvn versions:set -DremoveSnapshot
           mvn -P release --batch-mode deploy -DskipTests
         env:
           MAVEN_USERNAME: ${{ secrets.CENTRAL_TOKEN_USERNAME }}

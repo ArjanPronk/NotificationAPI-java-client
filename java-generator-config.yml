@@ -14,7 +14,7 @@ library: resteasy
 hideGenerationTimestamp: true
 useRuntimeException: true
 useJakartaEe: false
-developerEmail: arjan.pronk@gmail.com
+developerEmail: pronk.arjan@gmail.com
 developerName: Arjan Pronk
 developerOrganization: None
 developerOrganizationUrl: https://pronk.dev
