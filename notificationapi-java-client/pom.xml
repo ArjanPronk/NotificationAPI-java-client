@@ -36,7 +36,7 @@
     <developers>
         <developer>
             <name>Arjan Pronk</name>
-            <email>arjan.pronk@gmail.com</email>
+            <email>pronk.arjan@gmail.com</email>
             <organization>None</organization>
             <organizationUrl>https://pronk.dev</organizationUrl>
         </developer>
@@ -198,6 +198,11 @@
                     <stylesheet>java</stylesheet>
                     <doclint>none</doclint>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>versions-maven-plugin</artifactId>
+                <version>2.16.2</version>
             </plugin>
         </plugins>
     </build>
