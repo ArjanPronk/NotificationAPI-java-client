@@ -3,8 +3,8 @@ groupId: pronk.dev
 artifactId: notificationapi-java-client
 artifactDescription: Client for the NotificationAPI API
 #artifactVersion: 1.0.0-SNAPSHOT
-generateApiTests: false
-generateModelTests: false
+#generateApiTests: false
+#generateModelTests: false
 dateLibrary: java8
 invokerPackage: pronk.dev.notificationapi.client.utils
 modelPackage: pronk.dev.notificationapi.client.model
