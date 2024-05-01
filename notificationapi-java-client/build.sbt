@@ -1,6 +1,6 @@
 lazy val root = (project in file(".")).
   settings(
-    organization := "pronk.dev",
+    organization := "dev.pronk",
     name := "notificationapi-java-client",
     version := "1.0.0-SNAPSHOT",
     scalaVersion := "2.11.4",

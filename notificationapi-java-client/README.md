@@ -53,7 +53,7 @@ Add this dependency to your project's POM:
 
 ```xml
 <dependency>
-  <groupId>pronk.dev</groupId>
+  <groupId>dev.pronk</groupId>
   <artifactId>notificationapi-java-client</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <scope>compile</scope>
@@ -71,7 +71,7 @@ Add this dependency to your project's build file:
   }
 
   dependencies {
-     implementation "pronk.dev:notificationapi-java-client:1.0.0-SNAPSHOT"
+     implementation "dev.pronk:notificationapi-java-client:1.0.0-SNAPSHOT"
   }
 ```
 
@@ -94,10 +94,10 @@ Please follow the [installation](#installation) instruction and execute the foll
 
 ```java
 
-import pronk.dev.notificationapi.client.utils.*;
-import pronk.dev.notificationapi.client.utils.auth.*;
-import pronk.dev.notificationapi.client.model.*;
-import pronk.dev.notificationapi.client.AuthenticationApi;
+import dev.pronk.notificationapi.client.utils.*;
+import dev.pronk.notificationapi.client.utils.auth.*;
+import dev.pronk.notificationapi.client.model.*;
+import dev.pronk.notificationapi.client.AuthenticationApi;
 
 public class AuthenticationApiExample {
 

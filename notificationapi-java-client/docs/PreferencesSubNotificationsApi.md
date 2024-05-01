@@ -19,12 +19,12 @@ Create subNotification
 
 ```java
 // Import classes:
-import pronk.dev.notificationapi.client.utils.ApiClient;
-import pronk.dev.notificationapi.client.utils.ApiException;
-import pronk.dev.notificationapi.client.utils.Configuration;
-import pronk.dev.notificationapi.client.utils.auth.*;
-import pronk.dev.notificationapi.client.utils.models.*;
-import pronk.dev.notificationapi.client.PreferencesSubNotificationsApi;
+import dev.pronk.notificationapi.client.utils.ApiClient;
+import dev.pronk.notificationapi.client.utils.ApiException;
+import dev.pronk.notificationapi.client.utils.Configuration;
+import dev.pronk.notificationapi.client.utils.auth.*;
+import dev.pronk.notificationapi.client.utils.models.*;
+import dev.pronk.notificationapi.client.PreferencesSubNotificationsApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -99,12 +99,12 @@ Delete subNotification
 
 ```java
 // Import classes:
-import pronk.dev.notificationapi.client.utils.ApiClient;
-import pronk.dev.notificationapi.client.utils.ApiException;
-import pronk.dev.notificationapi.client.utils.Configuration;
-import pronk.dev.notificationapi.client.utils.auth.*;
-import pronk.dev.notificationapi.client.utils.models.*;
-import pronk.dev.notificationapi.client.PreferencesSubNotificationsApi;
+import dev.pronk.notificationapi.client.utils.ApiClient;
+import dev.pronk.notificationapi.client.utils.ApiException;
+import dev.pronk.notificationapi.client.utils.Configuration;
+import dev.pronk.notificationapi.client.utils.auth.*;
+import dev.pronk.notificationapi.client.utils.models.*;
+import dev.pronk.notificationapi.client.PreferencesSubNotificationsApi;
 
 public class Example {
     public static void main(String[] args) {

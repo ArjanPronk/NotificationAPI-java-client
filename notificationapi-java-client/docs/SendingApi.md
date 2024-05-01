@@ -23,12 +23,12 @@ Deletes a notification that has been scheduled using the \&quot;scheduled\&quot;
 
 ```java
 // Import classes:
-import pronk.dev.notificationapi.client.utils.ApiClient;
-import pronk.dev.notificationapi.client.utils.ApiException;
-import pronk.dev.notificationapi.client.utils.Configuration;
-import pronk.dev.notificationapi.client.utils.auth.*;
-import pronk.dev.notificationapi.client.utils.models.*;
-import pronk.dev.notificationapi.client.SendingApi;
+import dev.pronk.notificationapi.client.utils.ApiClient;
+import dev.pronk.notificationapi.client.utils.ApiException;
+import dev.pronk.notificationapi.client.utils.Configuration;
+import dev.pronk.notificationapi.client.utils.auth.*;
+import dev.pronk.notificationapi.client.utils.models.*;
+import dev.pronk.notificationapi.client.SendingApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -97,12 +97,12 @@ Update an already scheduled notification. The Request Body is similar to the Bod
 
 ```java
 // Import classes:
-import pronk.dev.notificationapi.client.utils.ApiClient;
-import pronk.dev.notificationapi.client.utils.ApiException;
-import pronk.dev.notificationapi.client.utils.Configuration;
-import pronk.dev.notificationapi.client.utils.auth.*;
-import pronk.dev.notificationapi.client.utils.models.*;
-import pronk.dev.notificationapi.client.SendingApi;
+import dev.pronk.notificationapi.client.utils.ApiClient;
+import dev.pronk.notificationapi.client.utils.ApiException;
+import dev.pronk.notificationapi.client.utils.Configuration;
+import dev.pronk.notificationapi.client.utils.auth.*;
+import dev.pronk.notificationapi.client.utils.models.*;
+import dev.pronk.notificationapi.client.SendingApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -171,12 +171,12 @@ For a detailed description of parameters and options, visit [here](https://docs.
 
 ```java
 // Import classes:
-import pronk.dev.notificationapi.client.utils.ApiClient;
-import pronk.dev.notificationapi.client.utils.ApiException;
-import pronk.dev.notificationapi.client.utils.Configuration;
-import pronk.dev.notificationapi.client.utils.auth.*;
-import pronk.dev.notificationapi.client.utils.models.*;
-import pronk.dev.notificationapi.client.SendingApi;
+import dev.pronk.notificationapi.client.utils.ApiClient;
+import dev.pronk.notificationapi.client.utils.ApiException;
+import dev.pronk.notificationapi.client.utils.Configuration;
+import dev.pronk.notificationapi.client.utils.auth.*;
+import dev.pronk.notificationapi.client.utils.models.*;
+import dev.pronk.notificationapi.client.SendingApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -246,12 +246,12 @@ Delete In-App Notification
 
 ```java
 // Import classes:
-import pronk.dev.notificationapi.client.utils.ApiClient;
-import pronk.dev.notificationapi.client.utils.ApiException;
-import pronk.dev.notificationapi.client.utils.Configuration;
-import pronk.dev.notificationapi.client.utils.auth.*;
-import pronk.dev.notificationapi.client.utils.models.*;
-import pronk.dev.notificationapi.client.SendingApi;
+import dev.pronk.notificationapi.client.utils.ApiClient;
+import dev.pronk.notificationapi.client.utils.ApiException;
+import dev.pronk.notificationapi.client.utils.Configuration;
+import dev.pronk.notificationapi.client.utils.auth.*;
+import dev.pronk.notificationapi.client.utils.models.*;
+import dev.pronk.notificationapi.client.SendingApi;
 
 public class Example {
     public static void main(String[] args) {

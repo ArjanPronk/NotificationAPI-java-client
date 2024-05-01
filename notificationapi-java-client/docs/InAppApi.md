@@ -22,12 +22,12 @@ Gets the user&#39;s in-app notifications from newest to oldest.  The before para
 
 ```java
 // Import classes:
-import pronk.dev.notificationapi.client.utils.ApiClient;
-import pronk.dev.notificationapi.client.utils.ApiException;
-import pronk.dev.notificationapi.client.utils.Configuration;
-import pronk.dev.notificationapi.client.utils.auth.*;
-import pronk.dev.notificationapi.client.utils.models.*;
-import pronk.dev.notificationapi.client.InAppApi;
+import dev.pronk.notificationapi.client.utils.ApiClient;
+import dev.pronk.notificationapi.client.utils.ApiException;
+import dev.pronk.notificationapi.client.utils.Configuration;
+import dev.pronk.notificationapi.client.utils.auth.*;
+import dev.pronk.notificationapi.client.utils.models.*;
+import dev.pronk.notificationapi.client.InAppApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -98,12 +98,12 @@ Returns the number of unread in-app notifications.
 
 ```java
 // Import classes:
-import pronk.dev.notificationapi.client.utils.ApiClient;
-import pronk.dev.notificationapi.client.utils.ApiException;
-import pronk.dev.notificationapi.client.utils.Configuration;
-import pronk.dev.notificationapi.client.utils.auth.*;
-import pronk.dev.notificationapi.client.utils.models.*;
-import pronk.dev.notificationapi.client.InAppApi;
+import dev.pronk.notificationapi.client.utils.ApiClient;
+import dev.pronk.notificationapi.client.utils.ApiException;
+import dev.pronk.notificationapi.client.utils.Configuration;
+import dev.pronk.notificationapi.client.utils.auth.*;
+import dev.pronk.notificationapi.client.utils.models.*;
+import dev.pronk.notificationapi.client.InAppApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -174,12 +174,12 @@ This method is used to mark one or all notifications of the user as read.  - To 
 
 ```java
 // Import classes:
-import pronk.dev.notificationapi.client.utils.ApiClient;
-import pronk.dev.notificationapi.client.utils.ApiException;
-import pronk.dev.notificationapi.client.utils.Configuration;
-import pronk.dev.notificationapi.client.utils.auth.*;
-import pronk.dev.notificationapi.client.utils.models.*;
-import pronk.dev.notificationapi.client.InAppApi;
+import dev.pronk.notificationapi.client.utils.ApiClient;
+import dev.pronk.notificationapi.client.utils.ApiException;
+import dev.pronk.notificationapi.client.utils.Configuration;
+import dev.pronk.notificationapi.client.utils.auth.*;
+import dev.pronk.notificationapi.client.utils.models.*;
+import dev.pronk.notificationapi.client.InAppApi;
 
 public class Example {
     public static void main(String[] args) {
