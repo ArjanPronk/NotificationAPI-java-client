@@ -1,14 +1,14 @@
 # Config options for the java generator
-groupId: pronk.dev
+groupId: dev.pronk
 artifactId: notificationapi-java-client
 artifactDescription: Client for the NotificationAPI API
 #artifactVersion: 1.0.0-SNAPSHOT
 #generateApiTests: false
 #generateModelTests: false
 dateLibrary: java8
-invokerPackage: pronk.dev.notificationapi.client.utils
-modelPackage: pronk.dev.notificationapi.client.model
-apiPackage: pronk.dev.notificationapi.client
+invokerPackage: dev.pronk.notificationapi.client.utils
+modelPackage: dev.pronk.notificationapi.client.model
+apiPackage: dev.pronk.notificationapi.client
 java8: true
 library: resteasy
 hideGenerationTimestamp: true
