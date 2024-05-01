@@ -56,7 +56,7 @@ jobs:
       - name: Generate Java Client
         run: | 
           rm -rf notificationapi-java-client/*
-          openapi-generator-cli generate -i openapi.yml -g java -c java-generator-config.yml -o notificationapi-java-client --skip-validate-spec --artifact-version 1.0.0-SNAPSHOT --global-property models,modelTests=false,apis,apiTests=false
+          openapi-generator-cli generate -i openapi.yml -g java -c java-generator-config.yml -o notificationapi-java-client --skip-validate-spec --artifact-version 1.0.0-SNAPSHOT --global-property supportingFiles,models,modelTests=false,apis,apiTests=false
 
 
       - name: commit changed files back to repo
